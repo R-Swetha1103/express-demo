@@ -43,6 +43,6 @@ app.get('/copy', (req, res) => {
     res.send('File copied successfully')
   })
 }); 
-app.listen(3001, "localhost", () =>{
+app.listen(3001, () =>{
   console.log("Server is running on http://localhost:3001");
 })
